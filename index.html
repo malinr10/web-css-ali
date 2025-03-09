@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="resources/CSS/style/navbar.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            height: 200px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .content .section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .content .section h2 {
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .content .section p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .content .section img {
+            margin: 10px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="#home"><img src="img/upi.png" alt="UPI Logo"></a>
+        </div>
+        <div>
+            <a href="resources/register.html">Register</a>
+            <a href="resources/login.html">Login</a>
+            <div class="dropdown">
+                <a href="#">CSS &#9662;</a>
+                <div class="dropdown-content">
+                    <a href="resources/CSS/latihan2.html">Latihan 1</a>
+                    <a href="resources/CSS/flexboxGrid.html">Flexbox</a>
+                    <a href="resources/CSS/grid.html">Grid</a>  
+                </div>
+            </div>
+            <a href="resources/latihan.html">Biografi</a>
+            <a href="resources/form.html">Latihan Form</a>
+            <a href="resources/tugas.html">Table Pixel</a>
+            
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Selamat Datang di Website Kami</h1>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Tentang Saya</h2>
+            <p><b>Muhammad Ali Nur Rohman</b></p>
+            <p><b>2308238</b></p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <img src="img/html_logo.png" alt="HTML Logo">
+            <img src="img/bot.png" alt="Bootstrap Logo">
+            <img src="img/python.png" alt="Python Logo">
+            <img src="img/C.png" alt="C Logo">
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Kontak Saya</h2>
+        <p>Email: m.alinurrohman10@upi.edu | Telepon: 0812-3456-7890</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    background-color: red;
+
+}
+
+p {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+    text-align: justify;
+}
+
+h1,
+h3 {
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    background-color: yellow;
+    text-align: center;
+}
+
+.container img + p {
+    color: green;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: yellow;
+    text-align: center;
+}
+
+img ~ p {
+    color: black;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
